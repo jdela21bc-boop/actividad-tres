@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* --- VARIABLES DE COLOR --- */
+:root {
+    --fondo-oscuro: #121212;
+    --fondo-tarjeta: #1f1f1f;
+    --naranja-acento: #ff7a18;
+    --texto-blanco: #ffffff;
+    --texto-gris: #e0e0e0;
+}
+
+/* --- ESTRUCTURA GENERAL --- */
+body {
+    background-color: var(--fondo-oscuro);
+    color: var(--texto-blanco);
+    line-height: 1.6;
+}
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* --- CABECERA --- */
+.cabecera {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #2b2b2b;
+}
+.cabecera .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--naranja-acento);
+    text-decoration: none;
+}
+.navegacion a {
+    color: var(--texto-blanco);
+    text-decoration: none;
+    margin-left: 2rem;
+}
+.btn-primario {
+    border: 2px solid var(--naranja-acento);
+    color: var(--naranja-acento);
+    padding: 0.5rem 1.2rem;
+    border-radius: 2rem;
+}
+/* --- SECCIÓN --- */
+.hero {
+    padding: 3rem 0;
+}
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+}
+.hero-imagen {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+.hero p {
+    color: var(--texto-gris);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+.btn-secundario {
+    background-color: var(--naranja-acento);
+    color: var(--texto-blanco);
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    display: inline-block;
+}
+/* --- SERVICIOS --- */
+.tarjeta-servicio {
+    background-color: var(--fondo-tarjeta);
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    gap: 1.2rem;
+    align-items: flex-start;
+}
+.tarjeta-servicio img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 0.2rem;
+}
+.tarjeta-servicio h3 {
+    color: var(--naranja-acento);
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+.tarjeta-servicio p {
+    color: var(--texto-gris);
+    font-size: 0.95rem;
+}
+/* --- PIE DE PÁGINA --- */
+.pie {
+    padding: 2rem 0;
+    text-align: center;
+    color: #888;
+    font-size: 0.9rem;
+    border-top: 1px solid #2b2b2b;
+}
