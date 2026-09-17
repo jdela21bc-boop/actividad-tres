@@ -113,3 +113,11 @@ body {
     color: var(--texto-gris);
     font-size: 0.95rem;
 }
+/* --- PIE DE PÁGINA --- */
+.pie {
+    padding: 2rem 0;
+    text-align: center;
+    color: #888;
+    font-size: 0.9rem;
+    border-top: 1px solid #2b2b2b;
+}
