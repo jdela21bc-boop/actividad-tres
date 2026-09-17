@@ -54,3 +54,37 @@ body {
     padding: 0.5rem 1.2rem;
     border-radius: 2rem;
 }
+/* --- SECCIÓN --- */
+.hero {
+    padding: 3rem 0;
+}
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+}
+.hero-imagen {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+.hero p {
+    color: var(--texto-gris);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+.btn-secundario {
+    background-color: var(--naranja-acento);
+    color: var(--texto-blanco);
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    display: inline-block;
+}
