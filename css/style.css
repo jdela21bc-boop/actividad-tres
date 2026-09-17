@@ -88,3 +88,28 @@ body {
     text-decoration: none;
     display: inline-block;
 }
+/* --- SERVICIOS --- */
+.tarjeta-servicio {
+    background-color: var(--fondo-tarjeta);
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    gap: 1.2rem;
+    align-items: flex-start;
+}
+.tarjeta-servicio img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 0.2rem;
+}
+.tarjeta-servicio h3 {
+    color: var(--naranja-acento);
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+.tarjeta-servicio p {
+    color: var(--texto-gris);
+    font-size: 0.95rem;
+}
